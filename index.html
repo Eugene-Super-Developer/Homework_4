@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TRAITEMENT</title>
+    <link rel="icon" href="favicon.ico">
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        label {
+            display: block;
+        }
+
+        input {
+            background-color: #ebebeb;
+            border: none;
+            height: 30px;
+            margin-bottom: 15px;
+            width: 320px;
+            box-sizing: border-box;
+        }
+
+        button {
+            color: white;
+            font-size: 14px;
+            padding: 15px;
+            width: 113px;
+            border: none;
+        }
+    </style>
+</head>
+<body style="background-color: #e2e9ea">
+<header style="border-top: solid 127px white; padding-top: 26px;background-color: #04a6e2;">
+    <div style="max-width: 960px; margin: auto">
+        <ol style="list-style: none;">
+            <li style="display: inline-block">
+                <a href="#" style="font-size: 12px; color: white; text-decoration: none">Accueil »</a>
+            </li>
+            <li style="display: inline-block">
+                <a href="#" style="font-size: 12px; color: white; text-decoration: none">Traitement</a>
+            </li>
+        </ol>
+        <h1 style="font-size: 26px; color: white; text-transform: uppercase; margin-bottom: 26px;">Traitement</h1>
+    </div>
+</header>
+<section style="background-color: white; max-width: 960px; margin: auto; padding-top: 108px; padding-bottom: 104px;">
+    <main style="max-width: 420px; padding-left: 100px;">
+
+        <h1 style="font-size: 20px; color: #7d7d7d">Information</h1>
+
+        <h2 style="font-size: 16px; color: #04a6e2; padding-top: 65px; padding-bottom: 25px;">Information de
+            paiement</h2>
+
+        <form method="post" action="" style="width: 100%; font-size: 14px; color: #7d7d7d;">
+
+            <label for="prenom">Prénom</label>
+            <input id="prenom" type="text" name="prenom"/>
+
+            <label for="famille">Nom de famille</label>
+            <input id="famille" type="text" name="famille"/>
+
+            <label for="adresse_0">Adresse</label>
+            <input id="adresse_0" type="text" name="adresse"/>
+
+            <label for="adresse_1"></label>
+            <input id="adresse_1" type="text" name="adresse"/>
+
+            <label for="zip">Zip / Code Postale</label>
+            <input id="zip" type="text" name="zip"/>
+
+            <label for="ville">Ville</label>
+            <input id="ville" type="text" name="ville"/>
+
+            <label for="province">État / Province</label>
+            <input id="province" type="text" name="province"/>
+
+            <label for="pays">Pays</label>
+            <input id="pays" type="text" name="pays"/>
+
+            <label for="telephone">Téléphone</label>
+            <input id="telephone" type="text" name="telephone"/>
+
+            <p><input type="checkbox" checked name="a" value=""
+                      style="font-size: 12px; padding-top: 23px; max-width: 4%;">Faire la livraison des articles à l'adresse de
+                facturation ci-dessus</p>
+
+            <p style="font-size: 16px; color: #04a6e2; margin-top: 70px; margin-bottom: 30px;">Information de
+                paiement</p>
+
+            <label style="display: inline; margin-right: 45px;">
+                <input type="radio" style="max-width: 4%;">
+                Carte de crédit
+            </label>
+            <label style="display: inline;">
+                <input type="radio" checked style="max-width: 4%">
+                Paypal
+            </label>
+
+            <div><img src="images/paypal.png" style="padding-top: 35px; padding-bottom: 12px;"></div>
+
+
+            <p style="font-size: 14px; color: #7d7d7d; margin-bottom: 60px; display: block;">Appuyez
+                sur Continuer pour revoir votre prix final et Commander avec PayPal</p>
+
+            <button style="background-color: #7d7d7d; margin-right: 10px;" type="reset">Annuler</button>
+            <button style="background-color: #04a6e2;" type="submit">Continuer »</button>
+
+        </form>
+
+    </main>
+</section>
+</body>
+</html>
